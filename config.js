@@ -4,7 +4,7 @@ module.exports = {
 	LISTEN_PORT: process.env.PORT,
 	TRUST_X_FORWARDED_FOR: false,
 	//SOCKJS_PREFIX: '/sockjs',
-	SOCKJS_URL: '/sockjs',//'https://localhost:80/sockjs',
+	SOCKJS_URL: '/sockjs2',//'https://localhost:80/sockjs',
 	SOCKJS_SCRIPT_URL: '/sockjs-0.3.2.min.js',//'https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js', 
 	GAME_ID: 1,
 	NAME_EXPIRY: 60 * 60 * 24 * 14,
