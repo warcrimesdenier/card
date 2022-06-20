@@ -10,13 +10,13 @@ var _ = require('underscore'),
 var HAND_SIZE = 10;
 var MIN_PLAYERS = 3;
 var MAX_PLAYERS = 20;
-var ROUND_POINTS = 5;
+var ROUND_POINTS = 10;
 var MESSAGE_RATE = 7;
 var DEALER_TERM = "card czar";
 
 var TIMEOUTS = {
-    nomination: 50,
-    election: 60,
+    nomination: 40,
+    election: 500,
     intermission: 20,
     abandoned: 60, // clientless
     afk: 10*60, // no actions
