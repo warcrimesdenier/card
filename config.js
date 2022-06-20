@@ -1,6 +1,6 @@
 module.exports = {
 	DEBUG: true,
-	REDIS_PORT: 'redis://:p93caa2d35d8d227f541368bbc2f2346168024e35982499e4300f1767c6582289@ec2-54-209-29-252.compute-1.amazonaws.com:12659',
+	REDIS_PORT: 'redis://:p97b6c7f821a0da48156f6637c0a55a6cff893d7625f53d9fa609166060f9ca3b@ec2-184-73-159-85.compute-1.amazonaws.com:21649',
 	LISTEN_PORT: process.env.PORT,
 	TRUST_X_FORWARDED_FOR: false,
 	//SOCKJS_PREFIX: '/sockjs',
